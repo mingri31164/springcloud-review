@@ -1,0 +1,12 @@
+03:45:27:905  WARN 63336 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+03:45:27:905  WARN 63336 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+03:45:28:043  WARN 63336 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+03:45:28:062  WARN 63336 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+03:45:28:279  INFO 63336 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+03:45:28:315  INFO 63336 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+03:45:28:509  INFO 63336 --- [nacos-grpc-client-executor-17565] com.alibaba.nacos.common.remote.client   : [45aa875e-5020-4f15-aec8-5ce050d61452] Receive server push request, request = NotifySubscriberRequest, requestId = 414
+03:45:28:515  INFO 63336 --- [nacos-grpc-client-executor-17565] com.alibaba.nacos.common.remote.client   : [45aa875e-5020-4f15-aec8-5ce050d61452] Ack server push request, request = NotifySubscriberRequest, requestId = 414
+03:45:28:653  INFO 63336 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+03:45:28:654  INFO 63336 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@674e4c82[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+03:45:28:654  INFO 63336 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1728225637401_182.90.207.33_16176
+03:45:28:659  INFO 63336 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@4e4bfd9c[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 17566]

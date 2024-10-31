@@ -1,0 +1,26 @@
+03:22:07:177  INFO 47784 --- [rpcDispatch_RMROLE_1_2_64] i.s.c.r.p.client.RmUndoLogProcessor      : rm handle undo log process:UndoLogDeleteRequest{resourceId='jdbc:mysql://139.9.82.205:13306/hm-pay', saveDays=7, branchType=AT}
+03:45:27:757  WARN 47784 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+03:45:27:758  WARN 47784 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+03:45:27:759  WARN 47784 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+03:45:27:767  WARN 47784 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+03:45:27:900  INFO 47784 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+03:45:27:939  INFO 47784 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+03:45:28:278  INFO 47784 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+03:45:28:278  INFO 47784 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@65e4eba5[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+03:45:28:278  INFO 47784 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1728225637075_182.90.207.33_36329
+03:45:28:279  INFO 47784 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [92de57e3-7e24-40d5-b5b3-cf75e0869266] Notify disconnected event to listeners
+03:45:28:279  INFO 47784 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@1efa258e[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 13784]
+03:45:28:283  INFO 47784 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+03:45:28:615  INFO 47784 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+03:45:28:626  INFO 47784 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0x32508f05, L:/10.33.59.169:52803 ! R:/139.9.82.205:8099]
+03:45:28:626  INFO 47784 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0x32508f05, L:/10.33.59.169:52803 ! R:/139.9.82.205:8099]
+03:45:28:627  INFO 47784 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0x32508f05, L:/10.33.59.169:52803 ! R:/139.9.82.205:8099]
+03:45:28:627  INFO 47784 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0x32508f05, L:/10.33.59.169:52803 ! R:/139.9.82.205:8099]
+03:45:28:627  INFO 47784 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x32508f05, L:/10.33.59.169:52803 ! R:/139.9.82.205:8099]) will closed
+03:45:28:627  INFO 47784 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x32508f05, L:/10.33.59.169:52803 ! R:/139.9.82.205:8099]) will closed
+03:45:28:631  INFO 47784 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0x9d6be497, L:/10.33.59.169:52836 ! R:/139.9.82.205:8099]
+03:45:28:631  INFO 47784 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0x9d6be497, L:/10.33.59.169:52836 ! R:/139.9.82.205:8099]
+03:45:28:631  INFO 47784 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0x9d6be497, L:/10.33.59.169:52836 ! R:/139.9.82.205:8099]
+03:45:28:631  INFO 47784 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0x9d6be497, L:/10.33.59.169:52836 ! R:/139.9.82.205:8099]
+03:45:28:631  INFO 47784 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x9d6be497, L:/10.33.59.169:52836 ! R:/139.9.82.205:8099]) will closed
+03:45:28:631  INFO 47784 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x9d6be497, L:/10.33.59.169:52836 ! R:/139.9.82.205:8099]) will closed
